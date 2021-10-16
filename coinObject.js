@@ -18,11 +18,11 @@ const coin = {
         const image = document.createElement("img");
         if(this.state === 0){
             image.src = "./coinObject/cara.png"
-            image.alt = "lado cara"
+            image.alt = "Heads"
         }
         else{
             image.src = "./coinObject/coroa.png"
-            image.alt = "lado coroa"
+            image.alt = "Tails"
         }
         return image;
     },
